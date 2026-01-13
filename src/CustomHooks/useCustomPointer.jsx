@@ -26,10 +26,9 @@ export default function useCustomPointer(obj) {
             position: 'fixed',
             top: mouse.y,
             left: mouse.x,
-            pointerEvents: 'none',
             transform: 'translate(-50%, -50%)',
             fontSize: '50px',
-            zIndex: 999
+            cursor: 'none'
         }}>
             {obj}
         </div>
