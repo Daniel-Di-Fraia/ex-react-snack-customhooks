@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function UseSwitch() {
+export default function useSwitch() {
 
     const [stato, useStato] = useState(false)
 

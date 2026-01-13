@@ -1,9 +1,9 @@
 import './App.css'
-import UseSwitch from './CustomHooks/useSwitch';
+import useSwitch from './CustomHooks/useSwitch';
 
 function App() {
 
-  const [isOn, toggle] = UseSwitch();
+  const [isOn, toggle] = useSwitch();
 
   return (
     <>
